@@ -1,0 +1,29 @@
+/* App core styles
+   ========================================================================== */
+
+/* import global styles components */
+@import "../../node_modules/normalize.css/normalize.css";
+@import "./normalize.scss";
+@import "./colors.scss";
+@import "./fonts.scss";
+@import "./mixins.scss";
+@import "./typography.scss";
+
+/* import pages styles */
+@import "../../pages/install/scss/main.scss";
+
+
+/**
+ * App
+ */
+.app{
+    position: relative;
+}
+
+
+/**
+ * Body
+ */
+body.no_scroll{
+    overflow: hidden;
+}

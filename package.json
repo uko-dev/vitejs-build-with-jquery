@@ -1,0 +1,30 @@
+{
+  "name": "vitejs-tmp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    "cover 99.5%",
+    "last 2 years",
+    "not dead",
+    "not ie <= 11",
+    "not ie_mob >= 0"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-inject": "^5.0.5",
+    "@vitejs/plugin-legacy": "^4.1.1",
+    "sass": "^1.69.5",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "jquery": "^3.7.1",
+    "normalize.css": "^8.0.1"
+  }
+}

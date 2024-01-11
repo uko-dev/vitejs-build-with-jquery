@@ -1,0 +1,64 @@
+    // axios({
+    //     method: 'get',
+    //     url   : 'http://localhost:8888/installation/get-datasheet-data',
+    //     params  : {
+    //         name: "test-datasheet",
+    //         data_scope: "full"
+    //     },
+    //     headers: {'X-Requested-With': 'XMLHttpRequest'}
+    // })
+    // .then(function (response) {
+    //     console.log(response.data.title)
+    // })
+    // $.ajax({
+    //     url: "http://localhost:8888/installation/get-datasheet-data",
+    //     type: "get", //send it through get method
+    //     data: { 
+    //         name: "test-datasheet",
+    //         data_scope: "full"
+    //     },
+    //     headers : {'X-Requested-With': 'XMLHttpRequest'},
+    //     success: function(response) {
+    //       //Do Something
+    //     },
+    //     error: function(xhr) {
+    //       //Do Something to handle error
+    //     }
+    // });
+
+
+    /**
+     * POST METHODS
+     */
+
+    // axios({
+    //     method: 'post',
+    //     url   : 'http://localhost:8888/',
+    //     data  : {
+    //         r_name: "installation-database-setup",
+    //         dbhost: $("#dbhost").val(),
+    //         dbname: $("#dbname").val(),
+    //         dbuser: $("#dbuser").val(),
+    //         dbpass: $("#dbpass").val()
+    //     },
+    //     headers: {'X-Requested-With': 'XMLHttpRequest', 'Content-Type': 'application/x-www-form-urlencoded'}
+    // })
+
+    // var json = {
+    //     r_name: "installation-database-setup",
+    //     dbhost: $("#dbhost").val(),
+    //     dbname: $("#dbname").val(),
+    //     dbuser: $("#dbuser").val(),
+    //     dbpass: $("#dbpass").val()
+    // }
+    // // send cookies request
+    // $.ajax({
+    //     type    : "POST",
+    //     url     : "http://localhost:8888/",
+    //     data    : json,
+    //     dataType: "json",
+    //     headers : {'X-Requested-With': 'XMLHttpRequest'},
+    //     success : function (res) {
+    //         console.log(res)
+    //     }
+    // });

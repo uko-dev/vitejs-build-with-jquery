@@ -1,0 +1,46 @@
+/* Additional styles for HTML normalization
+   ========================================================================== */
+
+/**
+ * Remove blue background from clicked elements on touch devices
+ */
+body{
+    -webkit-tap-highlight-color: transparent;
+}
+
+/**
+ * Prevent selection of all elements by default
+ */
+body{
+    user-select: none;
+}
+
+/**
+ * Correct the margin of `h1-h6` and `p` elements
+ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+
+/**
+ * Remove underline from links
+ */
+a{
+    text-decoration: none;
+}
+
+/**
+ * Remove outline (blue border) from elements
+ */
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}

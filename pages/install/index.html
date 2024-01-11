@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udmin Installation</title>
+</head>
+<body class="theme_light">
+    <div class="app">
+        <div class="contentbox install">
+            <!-- Hero -->
+            <div class="install-hero">
+                <div class="install-hero__img-wrapper">
+                    <img src="./img/target-icon.png" alt="" class="install-hero__img">
+                </div>
+                <div class="install-hero__title"><span>Udmin</span> Installation</div>
+            </div>
+            <!-- End of hero -->
+
+            <!-- Stages -->
+            <div class="install-stages">
+                <div class="install-stages__container">
+                    <div class="install-stages__item active" data-stage="1">
+                        <img src="./img/number-1.svg" alt="" class="install-stages__number">
+                    </div>
+                    <div class="install-stages__line"></div>
+                    <div class="install-stages__item" data-stage="2">
+                        <img src="./img/number-2.svg" alt="" class="install-stages__number">
+                    </div>
+                    <div class="install-stages__line"></div>
+                    <div class="install-stages__item" data-stage="3">
+                        <img src="./img/number-3.svg" alt="" class="install-stages__number">
+                    </div>
+                </div>
+            </div>
+            <!-- End of stages -->
+
+            <!-- Form -->
+            <div class="install-form">
+                <div class="install-form__step-item active" data-stage="1">
+                    <div class="install-form__title">
+                        <img src="./img/stage-database-icon.svg" alt="">
+                        <div class="txt20">Database Setup</div>
+                    </div>
+                    <div class="install-form__fields-grid">
+                        <div class="field">
+                            <div class="field__hint">
+                                <label for="dbhost" class="field__hint-title">Host*</label>
+                                <div class="field__hint-text">Database host address.</div>
+                            </div>
+                            <input type="text" class="field__input" placeholder="yourdomain.mysql.tools" id="dbhost" name="dbhost" autocomplete="off">
+                            <div class="field__error-text"></div>
+                        </div>
+                        <div class="field">
+                            <div class="field__hint">
+                                <label for="dbname" class="field__hint-title">Name*</label>
+                                <div class="field__hint-text">Database name.</div>
+                            </div>
+                            <input type="text" class="field__input" placeholder="your_database_name" id="dbname" name="dbname" autocomplete="off">
+                            <div class="field__error-text"></div>
+                        </div>
+                        <div class="field">
+                            <div class="field__hint">
+                                <label for="dbuser" class="field__hint-title">User*</label>
+                                <div class="field__hint-text">Username with access to the database.</div>
+                            </div>
+                            <input type="text" class="field__input" placeholder="dev_yourdomain" id="dbuser" name="dbuser" autocomplete="off">
+                            <div class="field__error-text"></div>
+                        </div>
+                        <div class="field">
+                            <div class="field__hint">
+                                <label for="dbpass" class="field__hint-title">Password*</label>
+                                <div class="field__hint-text">User password.</div>
+                            </div>
+                            <input type="text" class="field__input" placeholder="s2F40yXIJx!j" id="dbpass" name="dbpass" autocomplete="off">
+                            <div class="field__error-text"></div>
+                        </div>
+                    </div>
+                    <div class="install-form__btn-wrapper">
+                        <div class="btn btn_bg_green" id="create-database">Create Database</div>
+                    </div>
+                </div>
+                <div class="install-form__step-item" data-stage="2">
+                    <div class="install-form__title">
+                        <img src="./img/stage-telegram-icon.svg" alt="">
+                        <div class="txt20">Telegram Setup</div>
+                    </div>
+                    <div class="install-form__fields-grid">
+                        <div class="field">
+                            <div class="field__hint">
+                                <div class="field__hint-title">Say hi to Udmin Bot*</div>
+                                <div class="field__hint-text">You should locate and initiate a chat with <a href="https://t.me/MyUdminBot" target="_blank">UdminBot</a>. <br>Then kindly copy and send a code from the field below to our bot. <br>This is necessary to log your Telegram username in the Udmin system.</div>
+                            </div>
+                            <div class="field__tocopy" id="tgcode">
+                                <div class="field__tocopy-content">41fefca0541295a1d9c4164670f2829e5cb38c97ada43be2675a47f77d3023d0</div>
+                                <div class="field__tocopy-icon-wrapper">
+                                    <img src="../../public/img/icons/copy-icon-8D88ED.svg" alt="" class="field__tocopy-icon">
+                                    <img src="../../public/img/icons/tocopy-success.svg" alt="" class="field__tocopy-success">
+                                </div>
+                            </div>
+                            <div class="field__error-text"></div>
+                        </div>
+                    </div>
+                    <div class="install-form__btn-wrapper">
+                        <div class="btn btn_bg_green" id="validate-telegram">Validate Code</div>
+                    </div>
+                </div>
+                <div class="install-form__step-item" data-stage="3">
+                    <div class="install-form__title">
+                        <img src="./img/stage-final-icon.svg" alt="">
+                        <div class="txt20">Final Call</div>
+                    </div>
+                    <div class="install-form__fields-grid">
+                        <div class="txt17">Welcome to the Udmin family!</div>
+                        <div class="txt15">You’ve successfully finished the initial Udmin configuration. <br>The system has generated a username for you - root_admin. You'll be able to update your login details in your profile soon.</div>
+                    </div>
+                    <div class="install-form__btn-wrapper">
+                        <a href="http://localhost:5173/pages/login" class="btn btn_bg_green">Login Page</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of form -->
+        </div>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
